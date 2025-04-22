@@ -1,0 +1,126 @@
+/* basic page layout and font setup */
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #F2F4F7;
+  font-family: 'Quicksand', sans-serif;
+  color: #1A3D5D;
+}
+
+/* all-caps headers with spacing between sections */
+h1, h2 {
+  font-family: 'Ruda', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 2px solid #1A3D5D;
+  padding-bottom: 0.25rem;
+}
+
+/* color blocks */
+.palette {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-family: 'Padauk', sans-serif;
+  color: #fff;
+}
+
+.swatch span {
+  background: rgba(0,0,0,0.3);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* type hierarchy reference */
+.typography {
+  font-family: 'Padauk', sans-serif;
+}
+
+.typography .tertiary {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+}
+
+/* sample buttons w/ hover state */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-family: 'Ruda', sans-serif;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  background-color: #62C6F2;
+  color: white;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #D4AF37;
+  border-color: #D4AF37;
+  color: #1A3D5D;
+}
+
+/* basic input fields with focus styling */
+.input-example {
+  margin-top: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #D4AF37;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: #F2F4F7;
+  outline: none;
+}
+
+/* volleyball icon inside a circle for mobile nav */
+.hamburger {
+  width: 40px;
+  height: 40px;
+  background-image: url('link_to_volleyball_icon.placeholder.com');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+/* design notes box – CTA color */
+.note {
+  background-color: #E87A59;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Padauk', sans-serif;
+  margin-top: 2rem;
+}
