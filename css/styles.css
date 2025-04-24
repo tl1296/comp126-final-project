@@ -177,3 +177,36 @@ tr:last-of-type td:first-of-type {
 tr:last-of-type td:last-of-type {
   border-bottom-right-radius: 10px;
 }
+
+/* Staff Section CSS */
+
+.column {
+  float: left;
+  width: 18.75%;
+  padding: 7px;
+  height: 40%;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 46%;
+  }
+}
+
+.portrait {
+  border-radius: 12px;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+}
