@@ -223,3 +223,154 @@ tr:last-of-type td:last-of-type {
   text-align: center;
   font-style: italic;
 }
+
+.about {
+  background-color: #F2F4F7;
+  padding: 2rem 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.about .container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.unc-logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-family: 'Padauk', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #1A3D5D;
+}
+
+.faq-item p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.history-page {
+  background-color: #F2F4F7;
+  padding: 2rem 1rem;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.history-page h1 {
+  font-family: 'Ruda', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #1A3D5D;
+}
+
+.history-page p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #1A3D5D;
+}
+
+.history-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #1A3D5D;
+}
+
+.history-table th {
+  background-color: #62C6F2;
+  color: white;
+  font-family: 'Padauk', sans-serif;
+}
+
+.history-table tr:hover {
+  background-color: #EAF7FB;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #62C6F2;
+  color: white;
+  font-family: 'Ruda', sans-serif;
+  text-transform: uppercase;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.cta-button:hover {
+  background-color: #D4AF37;
+  color: #1A3D5D;
+  border: 2px solid #D4AF37;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+
+.social-icons a:hover img {
+  filter: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #62C6F2;
+  padding: 0.5rem 1rem;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Ruda', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #D4AF37;
+}
