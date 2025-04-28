@@ -144,6 +144,7 @@ input:focus, textarea:focus {
 .header h1 {
   color:#62C6F2;
   font-size: 2em;
+  justify-self: start;
 }
 
 .header a {
