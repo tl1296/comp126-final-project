@@ -7,10 +7,23 @@ body {
   color: #1A3D5D;
 }
 
+/* desktop view margins */
+@media only screen and (min-width: 1200px) {
+  body {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
 /* all-caps headers with spacing between sections */
 h1, h2 {
   font-family: 'Ruda', sans-serif;
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
 }
 
 h2 {
@@ -123,6 +136,92 @@ input:focus, textarea:focus {
   color: white;
   font-family: 'Padauk', sans-serif;
   margin-top: 2rem;
+}
+
+/*OUR TEAM*/
+
+/*Team Image CSS*/
+.team {
+  border-radius: 12px;
+  width: 100%;
+}
+
+/* Roster Table CSS */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  border-style: hidden;
+}
+
+td {
+  border: 1px solid #62C6F2;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #62C6F2;
+  text-align: left;
+  padding: 8px;
+  color :#1A3D5D;
+  border: 1px solid #1A3D5D;
+}
+
+/* alternating colors */
+tr:nth-child(even) {
+  background-color: #1A3D5D;
+}
+
+tr:nth-child(odd) {
+  background-color: #275e91;
+}
+
+/* round table borders */
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+/* Staff Section CSS */
+
+.column {
+  float: left;
+  width: 18.75%;
+  padding: 7px;
+  height: 40%;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 46%;
+  }
+}
+
+.portrait {
+  border-radius: 12px;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
 }
 
 
