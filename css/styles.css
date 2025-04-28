@@ -1,6 +1,6 @@
 /* basic page layout and font setup */
 body {
-  margin: 0;
+  margin: 1rem;
   padding: 0;
   background-color: #F2F4F7;
   font-family: 'Quicksand', sans-serif;
@@ -478,7 +478,7 @@ tr:last-of-type td:last-of-type {
 
 .column {
   float: left;
-  width: 18.75%;
+  width: 46%;
   padding: 7px;
   height: 40%;
   text-align: center;
@@ -492,9 +492,9 @@ tr:last-of-type td:last-of-type {
 }
 
 /* Responsive layout */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 768px) {
   .column {
-    width: 46%;
+    width: 18.75%;
   }
 }
 
