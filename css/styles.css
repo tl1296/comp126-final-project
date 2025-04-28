@@ -172,7 +172,7 @@ input:focus, textarea:focus {
   height: 50px;
   float: left;
   justify-self: start;
-  background-image: url(/icons/volleyball.svg);
+  background-image: url(../icons/volleyball.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
