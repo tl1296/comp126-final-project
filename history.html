@@ -5,27 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>UNC Volleyball – Match History</title>
 
+  <!-- Responsive nav + styling -->
+  <link rel="stylesheet" href="responsive-nav.css">
+  <script src="js/responsive-nav.js"></script>
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Padauk&family=Quicksand&family=Ruda:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <a href="index.html"><img src="images/unc_logo.png" alt="UNC Logo" class="nav-logo"></a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="history.html">History</a></li>
-    </ul>
-  </nav>
+  <!-- Responsive Navbar/Header -->
+  <header class="header">
+    <h1>UNC Volleyball</h1>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourteam.html">Our Team</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Main Content -->
   <section class="history-page">
     <div class="container">
       <h1>Match History</h1>
       <p>Here are some highlights from recent seasons. We’ve played hard and had a great time doing it.</p>
-
       <table class="history-table">
         <thead>
           <tr>
@@ -53,19 +62,97 @@
             <td>Wake Forest Club</td>
             <td>25–22, 25–19</td>
             <td>UNC</td>
-          </tr> 
+          </tr>
           <tr>
             <td>Nov 9, 2024</td>
             <td>App State Club</td>
             <td>21–25, 25–23, 14–16</td>
             <td>App State</td>
           </tr>
+          <tr>
+            <td>Nov 16, 2024</td>
+            <td>UNC Wilmington</td>
+            <td>25–19, 25–17</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Nov 23, 2024</td>
+            <td>Elon University Club</td>
+            <td>22–25, 25–22, 15–13</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Dec 1, 2024</td>
+            <td>East Carolina Club</td>
+            <td>25–20, 23–25, 12–15</td>
+            <td>ECU</td>
+          </tr>
+          <tr>
+            <td>Dec 8, 2024</td>
+            <td>High Point Club</td>
+            <td>25–17, 25–21</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Jan 12, 2025</td>
+            <td>Davidson Club</td>
+            <td>25–16, 25–14</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Jan 19, 2025</td>
+            <td>Queens University Club</td>
+            <td>22–25, 25–23, 15–12</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Jan 26, 2025</td>
+            <td>Campbell University Club</td>
+            <td>19–25, 25–21, 14–16</td>
+            <td>Campbell</td>
+          </tr>
+          <tr>
+            <td>Feb 2, 2025</td>
+            <td>Liberty University Club</td>
+            <td>25–23, 25–20</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Feb 9, 2025</td>
+            <td>Western Carolina Club</td>
+            <td>25–21, 25–23</td>
+            <td>UNC</td>
+          </tr>
+          <tr>
+            <td>Feb 16, 2025</td>
+            <td>Charlotte Club</td>
+            <td>20–25, 25–18, 15–10</td>
+            <td>UNC</td>
+          </tr>
         </tbody>
-      </table>
-
-      <a href="index.html" class="cta-button">Back to Home</a>
+      </table>      
     </div>
   </section>
 
+  <!-- Footer Section -->
+  <footer class="footer">
+    <a href="https://www.instagram.com/uncvolleyball">
+      <img class="footer-img" src="icons/instagram.png" alt="Instagram logo; a camera. Links to UNC Volleyball Instagram page">
+    </a>
+    <a href="https://www.facebook.com/UNCVolleyball">
+      <img class="footer-img" src="icons/facebook.png" alt="Facebook logo. Links to UNC Volleyball Facebook page">
+    </a>
+    <a href="https://x.com/uncvolleyball">
+      <img class="footer-img" src="icons/twitter.png" alt="Twitter logo; a bird. Links to UNC Volleyball Twitter page">
+    </a>
+    <p class="caption">Source for logos: <a href="#">social media logos</a>,
+      <a href="https://commons.wikimedia.org/wiki/File:Volleyball_-_The_Noun_Project.svg">volleyball icon</a>
+    </p>
+  </footer>
+
+  <!-- Responsive nav scripts -->
+  <script src="js/fastclick.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/fixed-responsive-nav.js"></script>
 </body>
 </html>

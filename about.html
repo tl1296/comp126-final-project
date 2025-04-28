@@ -5,24 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>UNC Volleyball – About Us</title>
 
+  <!-- Responsive nav + styling -->
+  <link rel="stylesheet" href="responsive-nav.css">
+  <script src="js/responsive-nav.js"></script>
   <link rel="stylesheet" href="css/styles.css">
-
   <link href="https://fonts.googleapis.com/css2?family=Padauk&family=Quicksand&family=Ruda:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Extra styles for two-column grid sections */
+    .grid-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .grid-section ul {
+      list-style: disc inside;
+    }
+
+    @media screen and (max-width: 768px) {
+      .grid-section {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-  <nav class="navbar">
-    <a href="index.html"><img src="images/unc_logo.png" alt="UNC Logo" class="nav-logo"></a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="history.html">History</a></li>
-    </ul>
-  </nav>
+  <!-- Responsive Navbar/Header -->
+  <header class="header">
+    <h1>UNC Volleyball</h1>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourteam.html">Our Team</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- About Us Content -->
   <section class="about">
     <div class="container">
       <h1>About Us</h1>
+
       <h2>FAQ</h2>
 
       <div class="faq-item">
@@ -54,8 +84,60 @@
         <h3>Where can I learn more?</h3>
         <p>We are active on Instagram, Facebook, and Twitter. You can also reach out to any of the staff members.</p>
       </div>
+
+      <h2>Our Mission</h2>
+      <p>UNC Volleyball Club is committed to promoting teamwork, perseverance, and love for the game. Whether you're new to volleyball or have years of experience, our club offers a welcoming and competitive environment where all players can thrive.</p>
+
+      <h2>Our Values & Notable Highlights</h2>
+      <div class="grid-section">
+        <div>
+          <h3>Our Values</h3>
+          <ul>
+            <li>Teamwork on and off the court</li>
+            <li>Respect for teammates, opponents, and the game</li>
+            <li>Dedication to personal growth and team success</li>
+            <li>Creating a positive and inclusive community</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Notable Highlights</h3>
+          <ul>
+            <li>Regional Tournament Finalists – 2023</li>
+            <li>Fall Classic Tournament Champions – 2022</li>
+            <li>Raised over $2,000 for local charities</li>
+            <li>Over 75 active members in 2024</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Our Journey</h2>
+      <p>Founded in 1975 by a group of passionate students, UNC Volleyball Club has grown into one of the largest and most spirited sports clubs on campus. From humble beginnings in the old Woollen Gym, we now compete across the state and region with pride.</p>
+
+      <h2>What to Expect</h2>
+      <p>We welcome players of all skill levels and commitment levels. Whether you want to compete at the highest level or just enjoy pickup games with friends, there's a place for you. Expect intense rallies, lots of laughs, and teammates who become lifelong friends.</p>
+
     </div>
   </section>
 
+  <!-- Footer Section -->
+  <footer class="footer">
+    <a href="https://www.instagram.com/uncvolleyball">
+      <img class="footer-img" src="icons/instagram.png" alt="Instagram logo; a camera. Links to UNC Volleyball Instagram page">
+    </a>
+    <a href="https://www.facebook.com/UNCVolleyball">
+      <img class="footer-img" src="icons/facebook.png" alt="Facebook logo. Links to UNC Volleyball Facebook page">
+    </a>
+    <a href="https://x.com/uncvolleyball">
+      <img class="footer-img" src="icons/twitter.png" alt="Twitter logo; a bird. Links to UNC Volleyball Twitter page">
+    </a>
+    <p class="caption">Source for logos: <a href="#">social media logos</a>,
+      <a href="https://commons.wikimedia.org/wiki/File:Volleyball_-_The_Noun_Project.svg">volleyball icon</a>
+    </p>
+  </footer>
+
+  <!-- Responsive nav scripts -->
+  <script src="js/fastclick.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/fixed-responsive-nav.js"></script>
 </body>
 </html>
