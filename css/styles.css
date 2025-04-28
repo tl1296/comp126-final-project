@@ -90,7 +90,7 @@ h2 {
   box-shadow: none;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: #D4AF37;
   border-color: #D4AF37;
@@ -555,7 +555,7 @@ tr:last-of-type td:last-of-type {
   color: white;
 }
 
-.contactform .btn:hover {
+.contactform .btn:hover, .contactform .btn:focus {
   background-color: #275e91;
   color: #1A3D5D;
 }
