@@ -237,11 +237,12 @@ tr:last-of-type td:last-of-type {
 
 .home-header h1 {
     color:#62C6F2;
+    font-size: 2em;
 }
 
 .home-header a {
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 @font-face {
@@ -256,37 +257,23 @@ tr:last-of-type td:last-of-type {
 }
 
 .nav-toggle {
+    display: block;
     text-decoration: none;
     text-indent: -300px;
     position: relative;
     overflow: hidden;
-    width: 60px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     float: left;
     justify-self: start;
-}
-
-.nav-toggle:before {
-    display: block;
-    /* https://commons.wikimedia.org/wiki/File:Volleyball_-_The_Noun_Project.svg */
-    position: absolute;
-    content: "";
-    /* hamburger icon */
-    width: 100%;
     background-image: url(/icons/volleyball.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: 0;
-    top: 0;
+
+    margin: 10px;
 }
 
-
-.nav-toggle.active:before {
-    font-size: 24px;
-    content: "\78";
-    /* X/close icon */
-}
 
 .nav-collapse ul {
     margin: 0;
