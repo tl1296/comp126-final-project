@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>UNC Volleyball Club Style Guide</title>
+    <title>UNC Volleyball Club</title>
+
+<!-- linking js for nav-->
+    <link rel="stylesheet" href="responsive-nav.css">
+    <script src="js/responsive-nav.js"></script>
 
 <!-- linking css-->
     <link rel="stylesheet" href="css/styles.css">
@@ -13,6 +17,19 @@
 </head>
 
 <body>
+
+<header class="home-header">
+    <h1>UNC Volleyball</h1>
+    <nav class="nav-collapse">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 <h1>OUR TEAM</h1>
 
 <figure>
@@ -173,5 +190,9 @@
 </div>
 
 <p class="caption">Staff photos sourced from UNC Volleyball.</p>
+
+<script src="js/fastclick.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/fixed-responsive-nav.js"></script>
 
 </body>
