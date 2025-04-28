@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>UNC Volleyball Club Style Guide</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNC Volleyball Club</title>
+
+<!-- linking js for nav-->
+    <link rel="stylesheet" href="responsive-nav.css">
+    <script src="js/responsive-nav.js"></script>
 
 <!-- linking css-->
     <link rel="stylesheet" href="css/styles.css">
@@ -13,6 +17,19 @@
 </head>
 
 <body>
+
+<header class="header">
+    <h1>UNC Volleyball</h1>
+    <nav class="nav-collapse">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 <h1>OUR TEAM</h1>
 
 <figure>
@@ -144,34 +161,53 @@
         <img class="portrait" src="images/schall.jpg" alt="Schall" style="width:100%">
         <h3>Mike Schall</h3>
         <p>Head Coach</p>
-        <a href="mailto:mschall@ unc.edu">mschall@ unc.edu</a>
+        <a href="mailto:mschall@unc.edu">mschall@ unc.edu</a>
     </div>
     <div class="column">
         <img class="portrait" src="images/ferguson.jpg" alt="Schall" style="width:100%">
         <h3>Rachel Ferguson</h3>
         <p>Assistant Coach</p>
-        <a href="mailto:rmferg@ unc.edu">rmferg@ unc.edu</a>
+        <a href="mailto:rmferg@unc.edu">rmferg@unc.edu</a>
     </div>
     <div class="column">
         <img class="portrait" src="images/mikesch.jpg" alt="Schall" style="width:100%">
         <h3>Parker Mikesch</h3>
         <p>Assistant Coach</p>
-        <a href="mailto:parkmik@ unc.edu">parkmik@ unc.edu</a>
+        <a href="mailto:parkmik@unc.edu">parkmik@unc.edu</a>
     </div>
     <div class="column">
         <img class="portrait" src="images/stevens.jpg" alt="Schall" style="width:100%">
         <h3>Jack Stevens</h3>
         <p>Assistant Coach</p>
-        <a href="mailto:jackstev@ unc.edu">jackstev@ unc.edu</a>
+        <a href="mailto:jackstev@unc.edu">jackstev@unc.edu</a>
     </div>
     <div class="column">
         <img class="portrait" src="images/havenaar.jpg" alt="Schall" style="width:100%">
         <h3>Phoebe Havenaar</h3>
         <p>Director of Operations</p>
-        <a href="mailto:phacenaar@ unc.edu">phacenaar@ unc.edu</a>
+        <a href="mailto:phacenaar@unc.edu">phacenaar@unc.edu</a>
     </div>
 </div>
 
 <p class="caption">Staff photos sourced from UNC Volleyball.</p>
+
+<footer class="footer">
+    <a href="https://www.instagram.com/uncvolleyball">
+        <img class="footer-img" src="icons/instagram.png" alt="Instagram logo; a camera. Links to UNC Volleyball Instagram page">
+    </a>
+    <a href="https://www.facebook.com/UNCVolleyball">
+        <img class="footer-img" src="icons/facebook.png" alt="Facebook logo. Links to UNC Volleyball Facebook page">
+    </a>
+    <a href="https://x.com/uncvolleyball">
+        <img class="footer-img" src="icons/twitter.png" alt="Twitter logo; a bird. Links to UNC volleyball Twitter page">
+    </a>
+    <p class="caption">Source for logos: <a href="#">social media logos</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Volleyball_-_The_Noun_Project.svg">volleyball icon</a>
+    </p>
+</footer>
+
+<script src="js/fastclick.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/fixed-responsive-nav.js"></script>
 
 </body>
