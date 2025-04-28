@@ -121,7 +121,7 @@ input:focus, textarea:focus {
 .hamburger {
   width: 40px;
   height: 40px;
-  background-image: url(/icon/volleyball.svg);
+  background-image: url(/icons/volleyball.svg);
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -267,21 +267,20 @@ tr:last-of-type td:last-of-type {
 }
 
 .nav-toggle:before {
-    color: white;
-    /* edit this to change the icon color */
-    font: normal 28px/55px "responsivenav";
-    /* edit font-size (28px) to change the icon size */
+    display: block;
     /* https://commons.wikimedia.org/wiki/File:Volleyball_-_The_Noun_Project.svg */
-    text-transform: none;
-    text-align: center;
     position: absolute;
-    content: url(/icons/volleyball.svg);
+    content: "";
     /* hamburger icon */
-    text-indent: 0;
     width: 100%;
+    background-image: url(/icons/volleyball.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     left: 0;
     top: 0;
 }
+
 
 .nav-toggle.active:before {
     font-size: 24px;
