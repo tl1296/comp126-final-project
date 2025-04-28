@@ -97,6 +97,11 @@ h2 {
   color: #1A3D5D;
 }
 
+.donate-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* basic input fields with focus styling */
 .input-example {
   margin-top: 1rem;
